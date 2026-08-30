@@ -1,0 +1,13 @@
+# dependencies
+/node_modules
+/.next/
+/out/
+/build
+.DS_Store
+*.pem
+npm-debug.log*
+.env*.local
+.env
+*.tsbuildinfo
+
+public/images/profile/source.jpg
