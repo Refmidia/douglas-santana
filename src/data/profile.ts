@@ -1,13 +1,13 @@
 export const siteConfig = {
   canonicalUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://douglashsantana.com.br",
-  title: "Douglas Santos | Gerente · engajamento.app",
+  title: "Douglas Santos | Gerente · Engajamento.app",
   description:
-    "Douglas Santos — Gerente | engajamento.app. Escalando marcas e resultados reais. Vivendo do digital.",
+    "Douglas Santos — Gerente | Engajamento.app. Escalando marcas e resultados reais. Vivendo do digital.",
   locale: "pt_BR",
   language: "pt-BR",
   ogImage: "/images/og/og-douglas.jpg",
-  shareTitle: "Douglas Santos | engajamento.app",
-  shareText: "Conheça o perfil de Douglas Santos — Gerente | engajamento.app.",
+  shareTitle: "Douglas Santos | Engajamento.app",
+  shareText: "Conheça o perfil de Douglas Santos — Gerente | Engajamento.app.",
 };
 
 export type LinkItem = {
@@ -22,7 +22,7 @@ export type LinkItem = {
 export const profile = {
   name: "Douglas Santos",
   handle: "@douglashsantana",
-  role: "Gerente | engajamento.app",
+  role: "Gerente | Engajamento.app",
   tagline: "Escalando marcas e resultados reais",
   verse: "Isaías 54:17",
   location: "Vivendo do digital",
@@ -40,14 +40,14 @@ export const profile = {
 
 export const authorityStats = [
   { id: "followers", value: "7.3K", label: "seguidores", fullLabel: "7.376 seguidores" },
-  { id: "role", value: "Gerente", label: "engajamento.app", fullLabel: "Gerente | engajamento.app" },
+  { id: "role", value: "Gerente", label: "Engajamento.app", fullLabel: "Gerente | Engajamento.app" },
   { id: "focus", value: "Digital", label: "resultados reais", fullLabel: "Vivendo do digital" },
 ];
 
 export const links: LinkItem[] = [
   {
     id: "engajamento",
-    label: "engajamento.app",
+    label: "Engajamento.app",
     description: "Painel SMM · Instagram, TikTok e YouTube",
     href: profile.engajamentoUrl,
     accent: "gold",

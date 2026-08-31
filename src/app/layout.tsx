@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     "Marketing",
     "Growth",
     "Gerente",
-    "engajamento.app",
+    "Engajamento.app",
     "Instituto Lumina",
   ],
   alternates: { canonical: "/" },

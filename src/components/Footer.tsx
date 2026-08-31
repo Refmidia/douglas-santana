@@ -7,7 +7,7 @@ export function Footer() {
         {profile.name}
       </p>
       <p className="mt-1 text-xs tracking-[0.18em] text-[var(--gold)] uppercase">
-        engajamento.app
+        Engajamento.app
       </p>
     </footer>
   );
